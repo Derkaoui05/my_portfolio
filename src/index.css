@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    scroll-behavior: smooth scroll;
+}
+
+::-webkit-scrollbar{
+    width: .8rem;
+}
+::-webkit-scrollbar-track{
+    background: #111928;
+}
+::-webkit-scrollbar-thumb{
+    background: #3758f9;
+    border-radius: 5rem;
+}
+.card{
+    transition: .40s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+.hero-title{
+    background: linear-gradient(00deg,#000,#fff,#000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 8s linear infinite;
+}
+@keyframes shine{
+    0%{
+        background-position-x: -500%;
+    }
+    100%{
+        background-position-x: 500%;
+    }
+}
