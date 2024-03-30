@@ -7,7 +7,6 @@ import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import Footer from "./Components/Footer";
 import Testimonial from "./pages/Testimonial";
-import Service from "./pages/Service";
 import Error from "./Components/Error";
 import Signin from "./Components/Sign";
 export default function App() {
@@ -21,7 +20,6 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Project />} />
         <Route path="/skills" element={<Skills />} />
-        {/* <Route path="/services" element={<Service />} /> */}
         <Route path="/testimonial" element={<Testimonial />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />}  />
