@@ -20,7 +20,7 @@ function Project() {
                 </h2>
                 <p className="text-body-color text-base dark:text-dark-6">
                   There are many project i do it for my self,
-                  please enjoy 
+                  please enjoy it
                 </p>
               </div>
             </div>
