@@ -1,11 +1,11 @@
 import React from "react";
-import logo from '../assets/Logo1.png'
 import logo1 from '../assets/Logo.png'
+import logo from '../assets/Logo1.png'
 
 const Footer = () => {
   return (
     <>
-      <footer className="relative z-10 bg-dark pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
+      <footer className="relative z-10 bg-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
@@ -14,12 +14,12 @@ const Footer = () => {
                   <img
                     src={logo1}
                     alt="logo"
-                    className="max-w-full dark:hidden"
+                    className="w-full dark:hidden"
                   />
                   <img
                     src={logo}
                     alt="logo"
-                    className="max-w-full hidden dark:block mix-blend-difference"
+                    className="w-full hidden dark:block mix-blend-difference"
                   />
                 </a>
                 <p className="mb-7 text-base text-body-color dark:text-dark-6">
