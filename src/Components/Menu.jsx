@@ -8,7 +8,7 @@ function Menu() {
   
   return (
     <>
-  <header className="flex dark:bg-dark w-full items-center">
+  <header className="flex bg-white dark:bg-dark w-full items-center">
     <div className="container mt-2">
       <div className="relative -mx-4 flex items-center justify-between">
         <div className="w-60 max-w-full px-4">
@@ -90,10 +90,10 @@ const DropDown = ()=>{
             <img src={log} alt="Avatar" className="rounded-full w-11 h-11 shadow-2 shadow-sky-300 cursor-pointer" />
           </button>
            {isDropdownOpen && (
-            <div className="absolute right-0 mt-14 w-48 dark:bg-dark  rounded-md shadow-lg z-20">
-              <a href="https://github.com/Derkaoui05" className="flex gap-3 items-center px-4 py-2 text-xl text-white hover:text-body-color"><BiLogoGithub /> Derkaoui05  </a>
-              <a href="https://www.linkedin.com/in/derkaoui-yassir-497b5a298/" className="flex gap-3 items-center px-4 py-2 text-xl text-white hover:text-body-color"><BiLogoLinkedin /> derkaoui yassir </a>
-              <a href="https://www.behance.net/derkaoui-yassir" className="flex gap-3 items-center px-4 py-2 text-xl text-white hover:text-body-color"><BiLogoBehance /> Derkaoui Yassir </a>
+            <div className="absolute right-0 mt-14 w-48 bg-white dark:bg-dark  rounded-md shadow-lg z-20">
+              <a href="https://github.com/Derkaoui05" className="flex gap-3 items-center px-4 py-2 text-xl text-white hover:text-dark dark:hover:text-body-color"><BiLogoGithub /> Derkaoui05  </a>
+              <a href="https://www.linkedin.com/in/derkaoui-yassir-497b5a298/" className="flex gap-3 items-center px-4 py-2 text-xl text-white hover:text-dark dark:hover:text-body-color"><BiLogoLinkedin /> derkaoui yassir </a>
+              <a href="https://www.behance.net/derkaoui-yassir" className="flex gap-3 items-center px-4 py-2 text-xl text-white hover:text-dark dark:hover:text-body-color"><BiLogoBehance /> Derkaoui Yassir </a>
             </div>
           )}
     </>
