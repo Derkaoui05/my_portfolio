@@ -19,8 +19,8 @@ function Project() {
                   Our Recent Projects
                 </h2>
                 <p className="text-body-color text-base dark:text-dark-6">
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
+                  There are many project i do it for my self,
+                  please enjoy it
                 </p>
               </div>
             </div>

@@ -48,7 +48,7 @@ function Menu() {
                 <ListItem NavLink="/">Home</ListItem>
                 <ListItem NavLink="/about">About</ListItem>
                 <ListItem NavLink="/projects">Projects</ListItem>
-                <ListItem NavLink="/services">Services</ListItem>
+                {/* <ListItem NavLink="/services">Services</ListItem> */}
                 <ListItem NavLink="/skills">Skills</ListItem>
                 <ListItem NavLink="/testimonial">Testimonials</ListItem>
                 <ListItem NavLink="/contact">Contact</ListItem>
@@ -92,8 +92,8 @@ const DropDown = ()=>{
            {isDropdownOpen && (
             <div className="absolute right-0 mt-14 w-48 dark:bg-dark  rounded-md shadow-lg z-20">
               <a href="https://github.com/Derkaoui05" className="flex gap-3 items-center px-4 py-2 text-xl text-white hover:text-body-color"><BiLogoGithub /> Derkaoui05  </a>
-              <a href="#" className="flex gap-3 items-center px-4 py-2 text-xl text-white hover:text-body-color"><BiLogoLinkedin /> derkaoui yassir </a>
-              <a href="#" className="flex gap-3 items-center px-4 py-2 text-xl text-white hover:text-body-color"><BiLogoBehance /> Derkaoui Yassir </a>
+              <a href="https://www.linkedin.com/in/derkaoui-yassir-497b5a298/" className="flex gap-3 items-center px-4 py-2 text-xl text-white hover:text-body-color"><BiLogoLinkedin /> derkaoui yassir </a>
+              <a href="https://www.behance.net/derkaoui-yassir" className="flex gap-3 items-center px-4 py-2 text-xl text-white hover:text-body-color"><BiLogoBehance /> Derkaoui Yassir </a>
             </div>
           )}
     </>

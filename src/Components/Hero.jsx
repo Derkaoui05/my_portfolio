@@ -39,7 +39,7 @@ function Hero() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="https://derkaoui.tiiny.site/"
                       className="inline-flex items-center justify-center px-5 py-3 text-center text-base font-medium text-[#464646] hover:text-primary dark:text-white"
                     >
                       <span className="mr-2">

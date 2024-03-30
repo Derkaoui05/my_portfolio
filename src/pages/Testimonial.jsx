@@ -1,6 +1,9 @@
 import React, { useCallback, useRef } from "react";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
+import img1 from '../assets/image-01.jpg'
+import img2 from '../assets/image-02.jpg'
+import img3 from '../assets/image-03.jpg'
 
 const Testimonial = () => {
   const sliderRef = useRef(null);
@@ -25,32 +28,26 @@ const Testimonial = () => {
           <Swiper slidesPerView={1} ref={sliderRef}>
             <SwiperSlide>
               <SingleTestimonial
-                image="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/image-01.jpg"
-                reviewImg="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg"
-                reviewAlt="lineicon"
+                image={img1}
                 details="Velit est sit voluptas eum sapiente omnis! Porro, impedit minus quam reprehenderit tempore sint quaerat id! Mollitia perspiciatis est asperiores commodi labore!"
                 name="Derkaoui Yassir"
-                position="Chief Executive Officer."
+                position="Full-Stack Developer."
               />
             </SwiperSlide>
             <SwiperSlide>
               <SingleTestimonial
-                image="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/image-01.jpg"
-                reviewImg="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg"
-                reviewAlt="lineicon"
+                image={img2}
                 details="Velit est sit voluptas eum sapiente omnis! Porro, impedit minus quam reprehenderit tempore sint quaerat id! Mollitia perspiciatis est asperiores commodi labore!"
                 name="Ratbi Youssef"
-                position="Chief Executive Officer."
+                position="Web Developer."
               />
             </SwiperSlide>
             <SwiperSlide>
               <SingleTestimonial
-                image="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/image-01.jpg"
-                reviewImg="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg"
-                reviewAlt="lineicon"
+                image={img3}
                 details="Velit est sit voluptas eum sapiente omnis! Porro, impedit minus quam reprehenderit tempore sint quaerat id! Mollitia perspiciatis est asperiores commodi labore!"
                 name="Salah Nazrhanne"
-                position="Chief Executive Officer."
+                position="Mobile Developer."
               />
             </SwiperSlide>
             <div className="absolute left-0 right-0 z-10 flex items-center justify-center gap-5 sm:bottom-0">
@@ -133,9 +130,6 @@ const SingleTestimonial = ({
           </div>
           <div className="w-full">
             <div>
-              <div className="mb-7">
-                <img src={reviewImg} alt={reviewAlt} />
-              </div>
 
               <p className="mb-11 text-base font-normal italic leading-[1.81] text-body-color dark:text-dark-6 sm:text-[22px]">
                 {details}

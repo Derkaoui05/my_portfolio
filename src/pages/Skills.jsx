@@ -18,8 +18,7 @@ function Skills() {
                 What I can Do
               </h2>
               <p className="text-base text-body-color dark:text-dark-6">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                During my training, they are different languages I learned and I am able to work with them
               </p>
             </div>
           </div>
@@ -91,14 +90,6 @@ function Skills() {
             details="We dejoy working with discerning clients, people for whom quality, service, integrity & aesthetics."
             icon={
               <FaPython className="fill-white w-9 h-9" />
-              
-            }
-          />
-              <SkillCard
-            title="FLUTTER"
-            details="We dejoy working with discerning clients, people for whom quality, service, integrity & aesthetics."
-            icon={
-              <RiFlutterFill className="fill-white w-9 h-9" />
               
             }
           />

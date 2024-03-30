@@ -1,28 +1,29 @@
 import React from "react";
+import logo from '../assets/Logo1.png'
+import logo1 from '../assets/Logo.png'
 
 const Footer = () => {
   return (
     <>
-      <footer className="relative z-10 bg-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
+      <footer className="relative z-10 bg-dark pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
               <div className="mb-10 w-full">
                 <a href="/#" className="mb-6 inline-block max-w-[160px]">
                   <img
-                    src="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg"
+                    src={logo1}
                     alt="logo"
                     className="max-w-full dark:hidden"
                   />
                   <img
-                    src="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg"
+                    src={logo}
                     alt="logo"
-                    className="max-w-full hidden dark:block"
+                    className="max-w-full hidden dark:block mix-blend-difference"
                   />
                 </a>
                 <p className="mb-7 text-base text-body-color dark:text-dark-6">
-                  Sed ut perspiciatis undmnis is iste natus error sit amet
-                  voluptatem totam rem aperiam.
+                Contact me here if you need help
                 </p>
                 <p className="flex items-center text-sm font-medium text-dark dark:text-white">
                   <span className="mr-3 text-primary">
@@ -66,7 +67,7 @@ const Footer = () => {
               <NavLink link="/#" label="User Strategy" />
             </LinkGroup>
             <LinkGroup header="Company">
-              <NavLink link="/#" label="About TailGrids" />
+              <NavLink link="/#" label="About Me" />
               <NavLink link="/#" label="Contact & Support" />
               <NavLink link="/#" label="Success History" />
               <NavLink link="/#" label="Setting & Privacy" />
@@ -81,7 +82,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 lg:w-3/12">
               <div className="mb-10 w-full">
                 <h4 className="mb-9 text-lg font-semibold text-dark dark:text-white">
-                  Follow Us On
+                  Follow Me On
                 </h4>
                 <div className="mb-6 flex items-center">
                   <a

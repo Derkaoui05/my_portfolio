@@ -13,7 +13,7 @@ function Home() {
     <Hero />
     <About />
     <Project />
-    <Service />
+    {/* <Service /> */}
     <Skills />
     <Testimonial />
     <Contact />
