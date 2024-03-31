@@ -7,30 +7,30 @@ function Skills() {
   return (
     <>
      <section className="pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
-      <div className="container mx-auto">
+      <div className="container mx-auto" >
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div className="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
-              <span className="mb-2 block text-lg font-semibold text-primary">
+              <span className="mb-2 block text-lg font-semibold text-primary" data-aos="fade-up">
                 Our Skills
               </span>
-              <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]">
+              <h2 data-aos="fade-up" className="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]">
                 What I can Do
               </h2>
-              <p className="text-base text-body-color dark:text-dark-6">
+              <p className="text-base text-body-color dark:text-dark-6" data-aos="fade-up">
                 During my training, they are different languages I learned and I am able to work with them
               </p>
             </div>
           </div>
         </div>
 
-        <div className="-mx-4 flex flex-wrap">
+        <div className="-mx-4 flex flex-wrap" data-aos="zoom-in">
           <SkillCard
             title="HTML5"
             details="We dejoy working with discerning clients, people for whom quality, service, integrity & aesthetics."
             icon={
               <FaHtml5 className="fill-white w-9 h-9"/>
-            }
+            } 
           />
           <SkillCard
             title="CSS3"

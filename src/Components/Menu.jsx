@@ -21,7 +21,7 @@ function Menu() {
                 <img
                   src={logo}
                   alt="logo"
-                  className="w-full hidden dark:block mix-blend-difference"
+                  className="w-full hidden dark:block"
                 />
               </a>
             </div>

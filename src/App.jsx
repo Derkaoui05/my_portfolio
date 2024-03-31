@@ -9,12 +9,22 @@ import Footer from "./Components/Footer";
 import Testimonial from "./pages/Testimonial";
 import Error from "./Components/Error";
 import Signin from "./Components/Sign";
+import Aos from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
+
 export default function App() {
- 
+  useEffect(()=>{
+    Aos.init({
+      duration: 3000,
+      easing: 'ease',
+      offset: 100,
+      disable: "mobile",
+    });
+  })
   return (
     <>
-        
-      <Menu />
+        <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -26,6 +36,7 @@ export default function App() {
         <Route path="/sign" element={<Signin />} />
       </Routes>
       <Footer />
+      
     </>
   )
 }

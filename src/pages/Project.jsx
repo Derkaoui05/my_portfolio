@@ -8,11 +8,11 @@ function Project() {
   return (
     <>
     <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-dark">
-        <div className="container mx-auto">
+        <div className="container mx-auto" data-aos="fade-up">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center">
-                <span className="text-primary mb-2 block text-lg font-semibold">
+                <span className="text-primary mb-2 block text-lg font-semibold" data-aos="fade-up" >
                   Our Projects
                 </span>
                 <h2 className="text-dark mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]">
@@ -92,7 +92,7 @@ function Project() {
               </ul>
             </div>
           </div>
-          <div className="flex flex-wrap -mx-4">
+          <div className="flex flex-wrap -mx-4" data-aos="zoom-out" data-aos-duration="7000">
             <PortfolioCard
               ImageHref="https://i.ibb.co/64WfFPt/image-01.jpg"
               category="Branding"

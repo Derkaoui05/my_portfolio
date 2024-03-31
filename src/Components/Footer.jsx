@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <footer className="relative z-10 bg-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
-        <div className="container">
+        <div className="container" data-aos="zoom-in">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
               <div className="mb-10 w-full">
@@ -19,7 +19,7 @@ const Footer = () => {
                   <img
                     src={logo}
                     alt="logo"
-                    className="w-full hidden dark:block mix-blend-difference"
+                    className="w-full hidden dark:block"
                   />
                 </a>
                 <p className="mb-7 text-base text-body-color dark:text-dark-6">

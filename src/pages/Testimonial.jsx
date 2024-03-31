@@ -22,9 +22,9 @@ const Testimonial = () => {
     <>
       <section className="pb-20 pt-20 dark:bg-dark lg:pb-[120px] lg:pt-[120px]">
         <div className="container mx-auto">
-        <span className="text-primary text-center mb-2 block text-lg font-semibold">
+        <span className="text-primary text-center mb-2 block text-lg font-semibold" data-aos="fade-up">
           Testimonials
-        </span>w
+        </span>
           <Swiper slidesPerView={1} ref={sliderRef}>
             <SwiperSlide>
               <SingleTestimonial
@@ -52,7 +52,7 @@ const Testimonial = () => {
             </SwiperSlide>
             <div className="absolute left-0 right-0 z-10 flex items-center justify-center gap-5 sm:bottom-0">
               <div className="prev-arrow cursor-pointer" onClick={handlePrev}>
-                <button className="d flex h-[60px] w-[60px] items-center justify-center rounded-full border border-stroke bg-white text-dark transition-all hover:border-transparent hover:drop-shadow-testimonial dark:border-dark-3 dark:bg-dark-2 dark:text-white dark:hover:drop-shadow-none">
+                <button className="d flex h-[60px] w-[60px] items-center justify-center rounded-full border border-stroke bg-white text-dark transition-all hover:border-transparent hover:drop-shadow-testimonial dark:border-dark-3 dark:bg-dark-2 dark:text-white dark:hover:drop-shadow-none" data-aos="fade-right">
                   <svg
                     width="20"
                     height="21"
@@ -69,7 +69,7 @@ const Testimonial = () => {
                 </button>
               </div>
               <div className="next-arrow cursor-pointer" onClick={handleNext}>
-                <button className="d flex h-[60px] w-[60px] items-center justify-center rounded-full border border-stroke bg-white text-dark transition-all hover:border-transparent hover:drop-shadow-testimonial dark:border-dark-3 dark:bg-dark-2 dark:text-white dark:hover:drop-shadow-none">
+                <button className="d flex h-[60px] w-[60px] items-center justify-center rounded-full border border-stroke bg-white text-dark transition-all hover:border-transparent hover:drop-shadow-testimonial dark:border-dark-3 dark:bg-dark-2 dark:text-white dark:hover:drop-shadow-none" data-aos="fade-left">
                   <svg
                     width="20"
                     height="21"
@@ -108,7 +108,7 @@ const SingleTestimonial = ({
       <div className="relative w-full pb-16 md:w-11/12 lg:w-10/12 xl:w-8/12">
         <div className="w-full items-center md:flex">
           <div className="relative mb-12 w-full max-w-[310px] md:mb-0 md:mr-12 md:max-w-[250px] lg:mr-14 lg:max-w-[280px] 2xl:mr-16">
-            <img src={image} alt="image" className="w-full" />
+            <img src={image} alt="image" className="w-full" data-aos="fade-right" data-aos-duration="3000" />
             <span className="absolute -left-6 -top-6 z-[-1] hidden sm:block">
               <DotShape />
             </span>
@@ -131,14 +131,14 @@ const SingleTestimonial = ({
           <div className="w-full">
             <div>
 
-              <p className="mb-11 text-base font-normal italic leading-[1.81] text-body-color dark:text-dark-6 sm:text-[22px]">
+              <p className="mb-11 text-base font-normal italic leading-[1.81] text-body-color dark:text-dark-6 sm:text-[22px]" data-aos="fade-left" data-aos-duration="3000">
                 {details}
               </p>
 
-              <h4 className="mb-2 text-[22px] font-semibold leading-[27px] text-dark dark:text-white">
+              <h4 className="mb-2 text-[22px] font-semibold leading-[27px] text-dark dark:text-white" data-aos="fade-up" data-aos-duration="3000">
                 {name}
               </h4>
-              <p className="text-base text-body-color dark:text-dark-6">
+              <p className="text-base text-body-color dark:text-dark-6" data-aos="fade-up" data-aos-duration="3000">
                 {position}
               </p>
             </div>
