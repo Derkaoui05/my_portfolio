@@ -17,7 +17,6 @@ export default function App() {
   useEffect(()=>{
     Aos.init({
       duration: 3000,
-      easing: 'ease',
       offset: 100,
       disable: "mobile",
     });
