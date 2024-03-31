@@ -11,10 +11,10 @@ function Skills() {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div className="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
-              <span className="mb-2 block text-lg font-semibold text-primary" data-aos="fade-up">
+              <span className="mb-2 block text-lg font-semibold text-primary" data-aos="fade-down">
                 Our Skills
               </span>
-              <h2 data-aos="fade-up" className="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]">
+              <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]" data-aos="fade-up" >
                 What I can Do
               </h2>
               <p className="text-base text-body-color dark:text-dark-6" data-aos="fade-up">
@@ -24,7 +24,7 @@ function Skills() {
           </div>
         </div>
 
-        <div className="-mx-4 flex flex-wrap" data-aos="zoom-in">
+        <div className="-mx-4 flex flex-wrap">
           <SkillCard
             title="HTML5"
             details="We dejoy working with discerning clients, people for whom quality, service, integrity & aesthetics."
@@ -106,8 +106,8 @@ export default Skills
 const SkillCard = ({ icon, title, details }) => {
   return (
     <>
-      <div className="w-full  card px-4 md:w-1/2 lg:w-1/3">
-        <div className="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10 hover:bg-primary cursor-pointer">
+      <div className="w-full  card px-4 md:w-1/2 lg:w-1/3" >
+        <div className="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10 hover:bg-primary cursor-pointer" data-aos="zoom-in">
           <div className="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary ">
             {icon}
           </div>
