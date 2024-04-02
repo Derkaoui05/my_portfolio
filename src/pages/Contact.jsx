@@ -9,10 +9,10 @@ const Contact = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div className="mb-12 max-w-[570px] lg:mb-0">
                 <span className="mb-4 block text-base font-semibold text-primary" data-aos="zoom-in">
-                  Contact Us
+                  Contact Me
                 </span>
                 <h2 className="mb-6 text-[32px] font-bold uppercase text-dark dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]" data-aos="fade-right">
-                  GET IN TOUCH WITH US
+                  GET IN TOUCH WITH Me
                 </h2>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-dark-6" data-aos="fade-right">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

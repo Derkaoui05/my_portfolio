@@ -14,16 +14,15 @@ import { useEffect } from "react";
 import "aos/dist/aos.css";
 
 export default function App() {
-  useEffect(()=>{
+  useEffect(() => {
     Aos.init({
       duration: 3000,
       offset: 100,
-      disable: "mobile",
     });
   })
   return (
     <>
-        <Menu />
+      <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -31,11 +30,11 @@ export default function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/testimonial" element={<Testimonial />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<Error />}  />
+        <Route path="*" element={<Error />} />
         <Route path="/sign" element={<Signin />} />
       </Routes>
       <Footer />
-      
+
     </>
   )
 }

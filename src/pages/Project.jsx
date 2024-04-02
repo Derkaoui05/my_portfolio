@@ -92,7 +92,7 @@ function Project() {
               </ul>
             </div>
           </div>
-          <div className="flex flex-wrap -mx-4" data-aos="zoom-out" data-aos-duration="7000">
+          <div className="flex flex-wrap -mx-4" data-aos="zoom-out">
             <PortfolioCard
               ImageHref="https://i.ibb.co/64WfFPt/image-01.jpg"
               category="Branding"
