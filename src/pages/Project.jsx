@@ -7,7 +7,7 @@ function Project() {
   };
   return (
     <>
-    <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-dark">
+    <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white h-screen dark:bg-dark">
         <div className="container mx-auto" data-aos="fade-up">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">

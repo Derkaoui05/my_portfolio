@@ -4,7 +4,7 @@
 
 
 *{
-    scroll-behavior: smooth scroll;
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar{
@@ -23,7 +23,6 @@
 .card:hover{
     transform: scale(1.1);
 }
-
 
 .hero-title{
     background: linear-gradient(00deg,#000,#fff,#000);

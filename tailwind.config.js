@@ -12,6 +12,6 @@ export default {
     require("tailgrids/plugin")
   ],
   darkMode: 'class',
-  darkMode: 'media',
+  darkMode : 'media',
 }
 

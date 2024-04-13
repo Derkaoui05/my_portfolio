@@ -2,7 +2,7 @@
 function About() {
   return (
     <>
-      <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
+      <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white h-screen dark:bg-dark">
         <div className="container mx-auto" >
           <span className="text-primary text-center mb-2 block text-lg font-semibold" data-aos="fade-up">
             About Me

@@ -6,7 +6,7 @@ import { IoLogoJavascript } from "react-icons/io";
 function Skills() {
   return (
     <>
-     <section className="pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
+     <section className="pb-12 pt-20 bg-white dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
       <div className="container mx-auto" >
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -55,7 +55,7 @@ function Skills() {
             }
           />
           <SkillCard
-            title="TailWind Css"
+            title="TailWind CSS"
             details="We dejoy working with discerning clients, people for whom quality, service, integrity & aesthetics."
             icon={
               <BiLogoTailwindCss className="fill-white w-9 h-9" />

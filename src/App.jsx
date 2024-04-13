@@ -12,6 +12,7 @@ import Signin from "./Components/Sign";
 import Aos from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
+// import Cookie from "./Components/Cookie";
 
 export default function App() {
   useEffect(() => {
@@ -22,18 +23,17 @@ export default function App() {
   })
   return (
     <>
-      <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Project />} />
+        <Route path="/projects" element={<Project />} />o
         <Route path="/skills" element={<Skills />} />
         <Route path="/testimonial" element={<Testimonial />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
         <Route path="/sign" element={<Signin />} />
       </Routes>
-      <Footer />
+      {/* <Cookie /> */}
 
     </>
   )
