@@ -6,7 +6,7 @@ import { IoLogoJavascript } from "react-icons/io";
 function Skills() {
   return (
     <>
-     <section className="pb-12 pt-20 bg-white dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
+     <section className="pb-12 pt-20 bg-white h-screen dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
       <div className="container mx-auto" >
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
