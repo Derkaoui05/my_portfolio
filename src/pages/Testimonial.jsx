@@ -20,7 +20,7 @@ const Testimonial = () => {
 
   return (
     <>
-      <section className="pb-20 pt-20 bg-white h-screen dark:bg-dark lg:pb-[120px] lg:pt-[120px]">
+      <section className="pb-20 pt-20 bg-white  dark:bg-dark lg:pb-[120px] lg:pt-[120px]">
         <div className="container mx-auto">
         <span className="text-primary text-center mb-2 block text-lg font-semibold" data-aos="fade-up">
           Testimonials
