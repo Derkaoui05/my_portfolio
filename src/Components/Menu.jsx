@@ -3,6 +3,7 @@ import log from '../assets/hero-img.png'
 import logo1 from '../assets/Logo.png'
 import logo from '../assets/Logo1.png'
 import { BiLogoBehance, BiLogoGithub, BiLogoLinkedin } from 'react-icons/bi';
+import { navLink } from '../constants';
 function Menu() {
   const [open, setOpen] = useState(false);
 
@@ -43,12 +44,16 @@ function Menu() {
                     } `}
                 >
                   <ul className="block lg:flex">
-                    <ListItem NavLink="/">Home</ListItem>
-                    <ListItem NavLink="/about">About</ListItem>
-                    <ListItem NavLink="/projects">Projects</ListItem>
-                    <ListItem NavLink="/skills">Skills</ListItem>
-                    <ListItem NavLink="/testimonial">Testimonials</ListItem>
-                    <ListItem NavLink="/contact">Contact</ListItem>
+                    {navLink.map((nav) => {
+                    return (
+                      <li
+                        key={nav.id} 
+                      >
+                        <a href={`${nav.link}`} className=' className="flex py-2 text-base font-medium text-body-color
+                      hover:text-dark dark:text-dark-6 dark:hover:text-white lg:ml-12 lg:inline-flex"'>{nav.title}</a>
+                      </li>
+                    );
+                  })}
                   </ul>
                 </nav>
               </div>
@@ -64,21 +69,6 @@ function Menu() {
 }
 
 export default Menu
-
-const ListItem = ({ children, NavLink }) => {
-  return (
-    <>
-      <li>
-        <a
-          href={NavLink}
-          className="flex py-2 text-base font-medium text-body-color hover:text-dark dark:text-dark-6 dark:hover:text-white lg:ml-12 lg:inline-flex"
-        >
-          {children}
-        </a>
-      </li>
-    </>
-  );
-};
 const DropDown = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   return (
