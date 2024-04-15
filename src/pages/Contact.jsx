@@ -1,6 +1,8 @@
-import React from "react";
+
+import { useState } from 'react';
 
 const Contact = () => {
+
   return (
     <>
       <section className="relative z-10 overflow-hidden bg-white  py-20 dark:bg-dark lg:py-[120px]">
@@ -119,7 +121,7 @@ const Contact = () => {
                     placeholder="Your Name" 
                   />
                   <ContactInputBox
-                    type="text"
+                    type="email"
                     name="email"
                     placeholder="Your Email"
                   />
@@ -969,10 +971,9 @@ const ContactTextArea = ({ row, placeholder, name, defaultValue }) => {
         <textarea
           rows={row}
           placeholder={placeholder}
-          name={name}
+          name={name} id='message'
           className="w-full resize-none rounded border border-stroke px-[14px] py-3 text-base text-body-color outline-none focus:border-primary dark:border-dark-3 dark:bg-dark dark:text-dark-6"
-          defaultValue={defaultValue}
-       required />
+          defaultValue={defaultValue} required />
       </div>
     </>
   );
@@ -983,11 +984,11 @@ const ContactInputBox = ({ type, placeholder, name }) => {
     <>
       <div className="mb-6">
         <input
-          type={type}
+          type={type} id='name'
           placeholder={placeholder}
-          name={name}
+          name={name}  required
           className="w-full rounded border border-stroke px-[14px] py-3 text-base text-body-color outline-none focus:border-primary dark:border-dark-3 dark:bg-dark dark:text-dark-6"
-       required />
+        />
       </div>
     </>
   );
