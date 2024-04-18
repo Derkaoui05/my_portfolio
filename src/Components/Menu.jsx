@@ -71,9 +71,12 @@ function Menu() {
 export default Menu
 const DropDown = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropDown = ()=>{
+    setIsDropdownOpen(!isDropdownOpen)
+  }
   return (
     <>
-      <button className="focus:outline-none" onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
+      <button className="focus:outline-none" onClick={dropDown}>
         <img src={log} alt="Avatar" className="rounded-full w-11 h-11 shadow-2 shadow-sky-300 cursor-pointer" />
       </button>
       {isDropdownOpen && (
