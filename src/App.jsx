@@ -1,14 +1,14 @@
-import { BrowserRouter as Route, Routes } from "react-router-dom";
+import {  Route, Routes } from "react-router-dom";
 import Menu from "./Components/Menu";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Project from "./pages/Project";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
-import Footer from "./Components/Footer";
+// import Footer from "./Components/Footer";
 import Testimonial from "./pages/Testimonial";
 import Error from "./Components/Error";
-import Signin from "./Components/Sign";
+// import Signin from "./Components/Sign";
 import Aos from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
@@ -31,10 +31,9 @@ export default function App() {
         <Route path="/testimonial" element={<Testimonial />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
-        <Route path="/sign" element={<Signin />} />
+        {/* <Route path="/sign" element={<Signin />} /> */}
       </Routes>
       {/* <Cookie /> */}
-
     </>
   )
 }
